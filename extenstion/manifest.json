@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "File Uploader Extenstion",
+    "version": "1.0",
+    "description": "A Chrome extension to upload files and read files on python API",
+    "permissions": [
+      "storage",
+      "http://localhost:5000/*"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
